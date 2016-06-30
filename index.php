@@ -2,7 +2,7 @@
 
     <!-- Begin Section Container -->
     <section class="row">
-      <div class="twelve columns">
+      <div class="eight columns">
         <!-- Begin Loop -->
         <?php if ( have_posts() ) {
             while ( have_posts() ) {
@@ -21,6 +21,9 @@
         } //end if
     ?>
     <!-- End Loop -->
+    </div>
+    <div class="four columns">
+        <h3>Widget Area</h3>
     </div>
     </section>
     <!-- End Section Container -->
