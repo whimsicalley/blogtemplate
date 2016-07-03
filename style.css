@@ -17,27 +17,27 @@ Text Domain: alley_manalio_web_blog_template
     line-height: 16px;
 }
 h1, h2, h3, h4, h5, h6 {
-  color: #999999;
-  font-weight: 700;
+    color: #999999;
+    font-weight: 700;
 }
 h1 {
-  font-size: 3.0rem;
+    font-size: 3.0rem;
 }
 h2 {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 h3 {
-  font-size: 2.0rem;
+    font-size: 2.0rem;
 }
 h4 {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 h5 {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 a {
-  color: red;
-  text-decoration: none;
+    color: red;
+    text-decoration: none;
 }
 
 /*--- Menu --- */
