@@ -16,11 +16,11 @@
             ?>
             <!-- End Loop -->
         </div>
-
+        <!--Begin Sidebar Area-->
         <div class="four columns">
             <?php get_sidebar(); ?>
         </div>
-
+        <!--End Sidebar Area-->
     </section>
 <!-- End Section Container -->
 
