@@ -2,47 +2,35 @@
 /*-------------- Enable Widgets--------------- */
 
 function blank_widgets_init() {
-    /*-- Sidebar Widget --*/
+    /*-- Index Sidebar Widget --*/
     register_sidebar( array(
-        'name' => ('First Widget'),
-        'id' => 'first-widget',
-        'description' => 'Widget for our sidebar on pages',
-        'before_widget' => '<div class="widget-sidebar">',
+        'name' => ('First Index Widget'),
+        'id' => 'first-index-widget',
+        'description' => 'Widget for our index sidebar',
+        'before_widget' => '<div class="widget-index-sidebar">',
         'after_widget' => '</div>',
-        'before_title' => '<h2>',
-        'after_title' => '</h2>'
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'
     ));
-    /*--First Footer Widget--*/
+    /*-- Footer Left Widget --*/
     register_sidebar( array(
-        'name'          => ('First Footer widget'),
-        'id'            => 'footer-one',
-        'description'   => 'Left widget in the footer',
-        'before_widget' => '<div class="widget-footer widget-left">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>'
+        'name' => ('Footer Left Widget'),
+        'id' => 'footer-left-widget',
+        'description' => 'Left widget for our footer',
+        'before_widget' => '<div class="widget-footer-left">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'
     ));
-
-    /*--Second Footer Widget--*/
+    /*-- Footer Right Widget --*/
     register_sidebar( array(
-        'name'          => ('Second Footer widget'),
-        'id'            => 'footer-two',
-        'description'   => 'Middle widget in the footer',
-        'before_widget' => '<div class="widget-footer widget-middle">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>'
-    ));
-
-    /*--Third Footer Widget--*/
-    register_sidebar( array(
-        'name'          => ('Third Footer widget'),
-        'id'            => 'footer-three',
-        'description'   => 'Right widget in the footer',
-        'before_widget' => '<div class="widget-footer widget-right">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>'
+        'name' => ('Footer Right Widget'),
+        'id' => 'footer-right-widget',
+        'description' => 'Right widget for our footer',
+        'before_widget' => '<div class="widget-footer-right">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'
     ));
 
 }

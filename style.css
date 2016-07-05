@@ -1,11 +1,11 @@
 /*
-Theme Name: Alley Manalio's Web Blog
+Theme Name: Instructor's Sample Web Blog
 Theme URI:
 Author: Alley Manalio
 Description: Web Blog theme for WIE course
 Version: 0.1
 License: Open
-Text Domain: alley_manalio_web_blog_template
+Text Domain: alley_manalio_instructor_blog_template
 */
 
 @import url("stylesheets/normalize.css");
@@ -13,28 +13,39 @@ Text Domain: alley_manalio_web_blog_template
 
 * {
     color: #000000;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.5em;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #999999;
     font-weight: 700;
 }
+
 h1 {
-    font-size: 3.0rem;
+    font-size: 2.5em;
 }
+
 h2 {
-    font-size: 2.5rem;
+    font-size: 2em;
 }
+
 h3 {
-    font-size: 2.0rem;
+    font-size: 1.6em;
 }
+
 h4 {
-    font-size: 1.5rem;
+    font-size: 1.1em;
 }
+
 h5 {
-    font-size: 1.2rem;
+    font-size: 1em;
 }
+
 a {
     color: red;
     text-decoration: none;
@@ -44,25 +55,58 @@ a {
 
 .blank-menu-header {
     text-align: left;
-    margin-top: 40px;
+    margin-bottom: 20px;
 }
+
 .blank-menu-header ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
     list-style-image: none;
 }
+
 .blank-menu-header li {
     display: inline;
 }
+
 .blank-menu-header ul li a {
     text-decoration:none;
-    margin: 4px;
-    padding: 5px 0px 5px 40px;
+    margin: 5px;
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    padding: 0 20px 0 0;
 }
+
 .blank-menu-header ul li a:hover {
     color: #cccccc;
 }
-/* -- End Menu -- */
+
+.current-menu-item a {
+    color: red;
+    border-bottom: 3px solid red;
+}
+
+/* -- Header -- */
+
+h1.site-title {
+    font-size: 2.4em;
+    padding: 0;
+    margin: 30px 0 0;
+}
+
+h1.site-title a {
+    color: #112b80;
+}
+
+h2.sub-title {
+    font-size: 1.8em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+/* -- Index -- */
+
+.index-thumbnail img {
+    border: 1px black solid;
+}
