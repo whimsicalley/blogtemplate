@@ -5,6 +5,7 @@
     <?php wp_head('name'); ?>
 
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Open+Sans" rel="stylesheet" type="text/css">
 </head>
 <body>
   <div class="container">

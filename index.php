@@ -15,7 +15,7 @@
                             } ?>
                         </div>
                         <div class="nine columns">
-                            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></h3>
+                            <h3 class="header"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></h3>
                                 <?php the_excerpt(); ?>
                             <a href="<?php the_permalink(); ?>">Read More</a>
                         </div>
