@@ -16,6 +16,10 @@ Text Domain: alley_manalio_blog
     line-height: 1.5em;
 }
 
+body {
+    background-color: #24C6BB;
+}
+
 h1,
 h2,
 h3,
@@ -49,6 +53,10 @@ h5 {
 a {
     color: red;
     text-decoration: none;
+}
+
+.container {
+    background-image: url("imgs/offwhite_swirls.png");
 }
 
 /*--- Menu --- */
