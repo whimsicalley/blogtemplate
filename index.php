@@ -10,7 +10,7 @@
                     while ( have_posts() ) {
                         the_post(); ?>
                             <!--Start Individual Post Column-->
-                            <div class="four columns">
+                            <div class="four columns post">
                                 <?php if ( has_post_thumbnail() ) {
                                     the_post_thumbnail('thumbnail');
                                 } ?>

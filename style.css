@@ -68,10 +68,6 @@ a {
     background-image: url("imgs/offwhite_swirls.png");
 }
 
-.container .row {
-    padding: 0 10px;
-}
-
 /****** HEADER ******/
 
 header {
@@ -149,6 +145,10 @@ h3.header {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-weight: 300;
+}
+
+.post {
+    padding: 10px 10px 0 0;
 }
 
 .index-thumbnail img {
