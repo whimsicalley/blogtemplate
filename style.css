@@ -18,6 +18,8 @@ Text Domain: alley_manalio_blog
 
 body {
     background-color: #24C6BB;
+    padding: 0 30px;
+    width: 90%;
 }
 
 h1,
