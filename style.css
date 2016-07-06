@@ -11,6 +11,11 @@ Text Domain: alley_manalio_blog
 @import url("stylesheets/normalize.css");
 @import url("stylesheets/skeleton.css");
 
+@font-face {
+    font-family: TrashHand;
+    src: url("fonts/TrashHand.TTF");
+}
+
 * {
     color: #000000;
     line-height: 1.5em;
@@ -18,8 +23,6 @@ Text Domain: alley_manalio_blog
 
 body {
     background-color: #31c7bc;
-    padding: 0 30px;
-    width: 90%;
 }
 
 h1,
@@ -65,12 +68,23 @@ a {
     background-image: url("imgs/offwhite_swirls.png");
 }
 
+.container .row {
+    padding: 0 10px;
+}
+
 /****** HEADER ******/
 
+header {
+    background-color: #e15697;
+}
+
 h1.site-title {
-    font-size: 2.4em;
+    font-family: TrashHand;
+    font-size: 4em;
+    letter-spacing: 1px;
     padding: 0;
     margin: 30px 0 0;
+    text-align: center;
 }
 
 h1.site-title a {
@@ -80,7 +94,7 @@ h1.site-title a {
 h2.sub-title {
     font-size: 1.8em;
     font-weight: 300;
-    text-transform: uppercase;
+    text-align: center;
 }
 
 /****** NAVIGATION MENU ******/
@@ -88,14 +102,15 @@ h2.sub-title {
 .blank-menu-header {
     background-color: #f65697;
     text-align: right;
-    margin-bottom: 20px;
+    padding: 10px 0;
 }
 
 .blank-menu-header ul {
-    margin: 0;
+    margin: auto;
     padding: 10px;
     list-style-type: none;
     list-style-image: none;
+    width: 75%;
 }
 
 .blank-menu-header li {
@@ -113,7 +128,7 @@ h2.sub-title {
 
 .blank-menu-header ul li a:hover {
     background-color: #e15697;
-    padding: 10px 10px;
+    padding: 20px 10px;
 }
 
 .current-menu-item a {

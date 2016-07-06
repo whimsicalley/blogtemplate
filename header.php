@@ -8,26 +8,25 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway|Open+Sans" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <div class="container">
-    <header class="row">
-        <div class="eight columns">
-            <h1 class="site-title"><a href="<?php $url = home_url('/'); echo $url; ?>">
-                <?php bloginfo('name'); ?></a></h1>
-            <h2 class="sub-title"><?php bloginfo('description'); ?></h2>
-        </div>
-        <div class"four columns">
-            <h3>Search Bar</h3>
-        </div>
-    </header>
-    <!-- MENU CODE BEGINS -->
-    <div class="row">
-        <div class="twelve columns">
-            <?php
-        wp_nav_menu( array (
-            'sort_column' => 'menu_order',
-            'container_class' => 'blank-menu-header'
-        ));
-            ?>
-        </div>
+    <div class="headwrap"> <!-- BEGIN HEADER CONTAINER -->
+        <header class="row">
+            <div class="twelve columns">
+                <h1 class="site-title"><a href="<?php $url = home_url('/'); echo $url; ?>">
+                    <?php bloginfo('name'); ?></a></h1>
+                <h2 class="sub-title"><?php bloginfo('description'); ?></h2>
+            </div>
+        </header>
+        <!-- NAV MENU CODE BEGINS -->
+        <nav class="row">
+            <div class="twelve columns">
+                <?php
+            wp_nav_menu( array (
+                'sort_column' => 'menu_order',
+                'container_class' => 'blank-menu-header'
+            ));
+                ?>
+            </div>
+        </nav>
     </div>
     <!-- MENU CODE ENDS -->
+    <div class="container"> <!-- BEGIN BODY CONTAINER -->
