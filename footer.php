@@ -1,8 +1,8 @@
     <footer class="row">
-        <div class="nine columns">
+        <div class="seven columns">
             <?php dynamic_sidebar('footer-left-widget'); ?>
         </div>
-        <div class="three columns">
+        <div class="five columns">
             <?php dynamic_sidebar('footer-right-widget'); ?>
         </div>
     </footer>

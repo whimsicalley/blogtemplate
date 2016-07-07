@@ -263,7 +263,7 @@ h3.header {
 }
 
 .tagcloud {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .searchform,
@@ -287,7 +287,7 @@ h3.header {
 
 footer {
     background-color: #ffffff;
-    padding: 50px;
+    padding: 40px;
 }
 
 footer .textwidget {
