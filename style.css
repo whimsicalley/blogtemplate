@@ -303,3 +303,23 @@ footer .textwidget {
     display: inline;
     padding-right: 5px;
 }
+
+/****** OPEND POSTS ******/
+
+.full-page-posts {
+    padding: 50px;
+}
+
+.full-page-posts p {
+    font-size: 1.1em;
+}
+
+.full-page-posts a {
+    color: #31c7bc;
+    font-weight: bold;
+}
+
+.full-page-posts a:hover {
+    color: #f65697;
+    font-weight: bold;
+}
