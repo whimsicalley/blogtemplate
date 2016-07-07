@@ -4,7 +4,7 @@
 get_header(); ?>
 
 <div class="row">
-    <div class="twelve columns full-page-posts">
+    <div class="twelve columns full-page-posts-title">
         <h2>Archives</h2>
         <?php if ( have_posts() ) :
         // The Loop
@@ -16,18 +16,23 @@ get_header(); ?>
             <p>Sorry, no posts matched your criteria.</p>
         <?php endif; ?>
     </div>
+
 </div>
 
 <div class="row">
-    <div class="twelve columns full-page-posts">
-        <h2>Archives by Month:</h2>
-    <ul>
-        <?php wp_get_archives('type=weekly'); ?>
-    </ul>
-    <h2>Archives by Category:</h2>
-    <ul>
-        <?php wp_list_categories(); ?>
-    </ul>
+    <div class="eight columns full-page-posts">
+        <h3>Archives by Month:</h3>
+        <ul>
+            <?php wp_get_archives('type=weekly'); ?>
+        </ul>
+        <h3>Archives by Category:</h3>
+        <ul>
+            <?php wp_list_categories(); ?>
+        </ul>
+    </div>
+    <div class="four columns sidebar">
+        <h2 class="sidebar-title">Welcome!</h2>
+        <?php dynamic_sidebar('first-index-widget'); ?>
     </div>
 </div>
 

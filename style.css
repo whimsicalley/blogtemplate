@@ -257,11 +257,6 @@ h3.header {
     border: 1px #666666 solid;
 }
 
-//For Search Input Box
-.searchform input#s {
-    width: 100px;
-}
-
 .tagcloud {
     font-size: 16px;
 }
@@ -308,6 +303,10 @@ footer .textwidget {
 
 .full-page-posts {
     padding: 50px;
+}
+
+.full-page-posts-title {
+    padding: 50px 50px 0 50px;
 }
 
 .full-page-posts p {
