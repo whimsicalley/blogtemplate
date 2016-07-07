@@ -42,6 +42,13 @@ add_theme_support('menus');
 /*------ Enable Post Image Thumbnails ------*/
 add_theme_support( 'post-thumbnails' );
 
+/*-------------- Change Excerpt Length --------------- */
+
+function new_excerpt_length($length) {
+    return 40;
+}
+add_filter('excerpt_length', 'new_excerpt_length');
+
 /*-------------- Custom Post: Links--------------- */
 function custom_web_resources() {
     $labels = array(

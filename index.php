@@ -4,7 +4,7 @@
     <section class="row">
         <!-- Begin Post Column -->
         <div class="nine columns">
-            <div class="row">
+            <div class="row postcontainer">
                 <!-- Begin Post Loop -->
                 <?php if ( have_posts() ) {
                     while ( have_posts() ) {
@@ -14,7 +14,11 @@
                                 <?php if ( has_post_thumbnail() ) {
                                     the_post_thumbnail('thumbnail');
                                 } ?>
-                                <h3 class="header"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></h3>
+                                <h3 class="header">
+                                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></h3></a>
+                                    <div class="time">
+                                        <?php the_time('F dS, Y'); ?>
+                                    </div>
                                     <?php the_excerpt(); ?>
                                 <a href="<?php the_permalink(); ?>">Read More</a>
                             </div>
@@ -28,7 +32,7 @@
         </div>
         <!-- End Post Column -->
         <!-- Begin Sidebar Column-->
-        <div class="three columns">
+        <div class="three columns sidebar">
             <?php dynamic_sidebar('first-index-widget'); ?>
         </div>
     </section>
