@@ -2,7 +2,7 @@
 
 <!-- Begin Section Container -->
     <section class="row">
-        <div class="eight columns">
+        <div class="twelve columns full-page-posts">
             <!-- Begin Loop -->
             <?php
                 if ( have_posts() ) {
@@ -16,11 +16,6 @@
             ?>
             <!-- End Loop -->
         </div>
-        <!--Begin Sidebar Area-->
-        <div class="four columns">
-            <?php get_sidebar(); ?>
-        </div>
-        <!--End Sidebar Area-->
     </section>
 <!-- End Section Container -->
 

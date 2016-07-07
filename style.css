@@ -304,7 +304,7 @@ footer .textwidget {
     padding-right: 5px;
 }
 
-/****** OPEND POSTS ******/
+/****** OPENED POSTS + PAGES + ARCHIVES ******/
 
 .full-page-posts {
     padding: 50px;
@@ -322,4 +322,8 @@ footer .textwidget {
 .full-page-posts a:hover {
     color: #f65697;
     font-weight: bold;
+}
+
+#attachment_103 {
+    margin: auto;
 }

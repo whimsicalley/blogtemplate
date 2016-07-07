@@ -4,7 +4,7 @@
 get_header(); ?>
 
     <div class="row">
-        <div class="eight columns">
+        <div class="eight columns full-page-posts">
             <h1>Not Found</h1>
             <h2>This is somewhat embarrassing, isn't it?</h2>
             <p>It looks like nothing was found at this location. Maybe try a search?</p>
