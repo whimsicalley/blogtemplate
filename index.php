@@ -20,7 +20,9 @@
                                         <?php the_time('F dS, Y'); ?>
                                     </div>
                                     <?php the_excerpt(); ?>
-                                <a href="<?php the_permalink(); ?>">Read More</a>
+                                <div class="button-container">
+                                    <a class="button" href="<?php the_permalink(); ?>">More</a>
+                                </div>
                             </div>
                             <!--End Post Column-->
                             <?php
@@ -33,6 +35,7 @@
         <!-- End Post Column -->
         <!-- Begin Sidebar Column-->
         <div class="three columns sidebar">
+            <h2 class="sidebar-title">Welcome!</h2>
             <?php dynamic_sidebar('first-index-widget'); ?>
         </div>
     </section>

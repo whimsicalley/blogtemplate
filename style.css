@@ -31,7 +31,6 @@ h3,
 h4,
 h5,
 h6 {
-    color: #999999;
     font-weight: 700;
 }
 
@@ -90,6 +89,10 @@ h1.site-title {
 
 h1.site-title a {
     color: #ffffff;
+}
+
+h1.site-title a:hover {
+    text-decoration: none;
 }
 
 h2.sub-title {
@@ -170,8 +173,8 @@ h3.header {
 .post {
     padding: 10px;
     background-color: white;
-    border: 5px solid #dddddd;
-    margin: 0 0 20px 20px;
+    border: 3px solid #dddddd;
+    margin: 0 0 10px 10px;
 }
 
 .post img {
@@ -182,6 +185,121 @@ h3.header {
     margin: -2px;
 }
 
+.button-container {
+    text-align: center;
+}
+
+.button a {
+    padding: 10px 10px;
+    color: #555;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+}
+
+.button a:hover {
+    border: 1px #666666 solid;
+    text-decoration: none;
+}
+
+/****** SIDEBAR ******/
+
 .sidebar {
-    background-color: blue;
+    background-color: #cc4484;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.sidebar-title {
+    font-family: TrashHand;
+    font-size: 3em;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.sidebar h3 {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #f65697;
+    padding: 10px 0;
+    letter-spacing: 1px;
+}
+
+.widget-easy-twitter-feed-widget-global-wrapper h3 {
+    background-color: #f65697;
+    padding: 10px 0;
+}
+
+.textwidget a {
+    height: 38px;
+    padding: 10px 30px;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+}
+
+.textwidget a:hover {
+    border: 1px #666666 solid;
+}
+
+//For Search Input Box
+.searchform input#s {
+    width: 100px;
+}
+
+.tagcloud {
+    font-size: 12px;
+}
+
+.searchform,
+.textwidget,
+.tagcloud {
+    background-color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+.widget-easy-twitter-feed-widget-global-wrapper {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tagcloud a {
+    font-size: 1em;
+}
+
+/****** FOOTER ******/
+
+footer {
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+footer .textwidget {
+    text-align: left;
+    padding: 0;
+}
+
+.icons-large ul {
+    list-style-type: none;
+}
+
+.icons-large li {
+    display: inline;
+    padding-right: 5px;
 }
