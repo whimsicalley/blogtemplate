@@ -175,6 +175,11 @@ h3.header {
     background-color: white;
     border: 3px solid #dddddd;
     margin: 0 0 10px 10px;
+    height: 550px;
+}
+
+.post p {
+    padding-left: 10px;
 }
 
 .post img {

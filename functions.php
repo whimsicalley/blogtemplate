@@ -45,7 +45,7 @@ add_theme_support( 'post-thumbnails' );
 /*-------------- Change Excerpt Length --------------- */
 
 function new_excerpt_length($length) {
-    return 40;
+    return 15;
 }
 add_filter('excerpt_length', 'new_excerpt_length');
 
