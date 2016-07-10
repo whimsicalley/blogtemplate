@@ -214,7 +214,7 @@ h3.header {
 
 .sidebar {
     background-color: #cc4484;
-    margin-top: 25px;
+    margin: 25px 0;
     padding: 15px;
     border-radius: 25px;
 }
