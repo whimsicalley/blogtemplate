@@ -314,6 +314,20 @@ footer .textwidget {
     padding: 50px 50px 0 50px;
 }
 
+.full-page-posts img {
+    border: 2px black solid;
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.full-page-posts h2 {
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .full-page-posts p {
     font-size: 1.1em;
 }
@@ -330,4 +344,33 @@ footer .textwidget {
 
 #attachment_103 {
     margin: auto;
+}
+
+.contentcontainer {
+    background-color: white;
+    margin: 10px 0;
+    padding: 20px;
+    border: 3px solid #dddddd;
+}
+
+.archive-container {
+    background-color: white;
+    margin: 12px;
+    border: 3px solid #dddddd;
+}
+
+.page-container {
+    background-color: white;
+    border: 3px solid #dddddd;
+    margin: 50px 0 100px 0;
+}
+
+.page-container img {
+    border: 2px black solid;
+    border-radius: 15px;
+    max-width: 600px;
+    height: auto;
+    display: inline;
+    float: left;
+    margin: 0 20px;
 }

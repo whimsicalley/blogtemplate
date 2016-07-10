@@ -20,7 +20,7 @@ get_header(); ?>
 </div>
 
 <div class="row">
-    <div class="eight columns full-page-posts">
+    <div class="eight columns full-page-posts archive-container">
         <h3>Archives by Month:</h3>
         <ul>
             <?php wp_get_archives('type=weekly'); ?>
