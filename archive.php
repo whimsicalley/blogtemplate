@@ -8,9 +8,7 @@ get_header(); ?>
 
         <!-- Search Results below -->
         <div class="row">
-            <div class="full-page-posts-title">
-                <h2>Archives</h2>
-            </div>
+            <h2>Archives</h2>
             <?php if ( have_posts() ) :
             // The Loop
             while ( have_posts() ) : the_post();?>
