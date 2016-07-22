@@ -1,3 +1,5 @@
+<!-- This is for opened posts -->
+
 <?php get_header(); ?>
 
 <!-- Begin Section Container -->

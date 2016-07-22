@@ -4,23 +4,25 @@
 get_header(); ?>
 
 <div class="row">
-    <div class="twelve columns full-page-posts-title">
-        <h2>Archives</h2>
-        <?php if ( have_posts() ) :
-        // The Loop
-        while ( have_posts() ) : the_post();?>
-        <!-- data context -->
-            <?php the_excerpt(); ?>
-            <?php endwhile; ?> <!-- End Loop -->
-            <?php else: ?>
-            <p>Sorry, no posts matched your criteria.</p>
-        <?php endif; ?>
-    </div>
+    <div class="nine columns full-page-posts archive-container">
 
-</div>
+        <!-- Search Results below -->
+        <div class="row">
+            <div class="full-page-posts-title">
+                <h2>Archives</h2>
+            </div>
+            <?php if ( have_posts() ) :
+            // The Loop
+            while ( have_posts() ) : the_post();?>
+            <!-- data context -->
+                <?php the_excerpt(); ?>
+                <?php endwhile; ?> <!-- End Loop -->
+                <?php else: ?>
+                <p>Sorry, no posts matched your criteria.</p>
+            <?php endif; ?>
+        </div>
 
-<div class="row">
-    <div class="eight columns full-page-posts archive-container">
+        <!-- Displays no matter what -->
         <h3>Archives by Month:</h3>
         <ul>
             <?php wp_get_archives('type=weekly'); ?>
@@ -30,7 +32,7 @@ get_header(); ?>
             <?php wp_list_categories(); ?>
         </ul>
     </div>
-    <div class="four columns sidebar">
+    <div class="three columns sidebar">
         <h2 class="sidebar-title">Welcome!</h2>
         <?php dynamic_sidebar('first-index-widget'); ?>
     </div>

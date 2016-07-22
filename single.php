@@ -17,6 +17,9 @@
                                     </div>
                                 <?php }
                                 the_content(); ?>
+
+                                <!-- Previous/Next Post links-->
+                                <p class="post-links"><?php previous_post_link(); ?>  |  <?php next_post_link(); ?> </p>
                             </div> <?php
                     }
                 }

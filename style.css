@@ -54,6 +54,12 @@ h5 {
     font-size: 1em;
 }
 
+/* For special areas, like search results */
+.special {
+    font-style: italic;
+    color: #cc4484;
+}
+
 p {
     font-family: "Open Sans", sans-serif;
 }
@@ -352,6 +358,12 @@ footer .textwidget {
     margin: 10px 0;
     padding: 20px;
     border: 3px solid #dddddd;
+}
+
+/* Previous/Next post links at bottom of each post*/
+.post-links {
+    text-align: center;
+    padding-top: 40px;
 }
 
 .archive-container {
